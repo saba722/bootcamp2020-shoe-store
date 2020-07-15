@@ -9,12 +9,12 @@ export default function App()
   </Router>
 }
 
-function Home()
-{
-  return <div>
-    <h1>Welcome Home!</h1>
-  </div>
-}
+// function Home()
+// {
+//   return <div>
+//     <h1>Welcome Home!</h1>
+//   </div>
+// }
 
 const shoes = {
   "air-jordan-3-valor-blue":
