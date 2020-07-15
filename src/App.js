@@ -1,9 +1,19 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 export default function App()
 {
-  return <div>App</div>
+  return <Router>
+      <Route path="/" element={shoes} />
+  </Router>
+}
+
+function Home()
+{
+  return <div>
+    <h1>Welcome Home!</h1>
+  </div>
 }
 
 const shoes = {
