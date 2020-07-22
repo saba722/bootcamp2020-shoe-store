@@ -60,6 +60,7 @@ const Trending = () => {
                                 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
                         </div>
                             </div>
+                            {/* eslint-disable-next-line */}
                             <a className="mc-btn-action">
                                 <i className="fa fa-bars"></i>
                             </a>
@@ -67,10 +68,14 @@ const Trending = () => {
                                 <h4>
                                     See More Products
                         </h4>
-                                <a className="fa fa-fw fa-facebook"></a>
-                                <a className="fa fa-fw fa-twitter"></a>
-                                <a className="fa fa-fw fa-linkedin"></a>
-                                <a className="fa fa-fw fa-google-plus"></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-facebook" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-twitter" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-linkedin" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-google-plus" href='#'></a>
                             </div>
                         </article>
                     </div>
@@ -91,6 +96,7 @@ const Trending = () => {
                                 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
                         </div>
                             </div>
+                            {/* eslint-disable-next-line */}
                             <a className="mc-btn-action">
                                 <i className="fa fa-bars"></i>
                             </a>
@@ -98,10 +104,14 @@ const Trending = () => {
                                 <h4>
                                     See More Products
                         </h4>
-                                <a className="fa fa-fw fa-facebook"></a>
-                                <a className="fa fa-fw fa-twitter"></a>
-                                <a className="fa fa-fw fa-linkedin"></a>
-                                <a className="fa fa-fw fa-google-plus"></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-facebook" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-twitter" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-linkedin" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-google-plus" href='#'></a>
                             </div>
                         </article>
                     </div>
@@ -116,12 +126,13 @@ const Trending = () => {
                             </h2>
                             <div className="mc-content">
                                 <div className="img-container">
-                                    <img alt="" className="img-responsive" src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/85612692-1357-40b9-9baf-55b0efa00953/air-max-2090-older-shoe-c701vf.jpg" />
+                                    <img alt="" className="img-responsive" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/695f645c-bce9-4421-a923-cd68e3980249/air-zoom-speed-younger-older-running-shoe-JnhB6z.jpg" />
                                 </div>
                                 <div className="mc-description">
                                 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
                         </div>
                             </div>
+                            {/* eslint-disable-next-line */}
                             <a className="mc-btn-action">
                                 <i className="fa fa-bars"></i>
                             </a>
@@ -129,10 +140,14 @@ const Trending = () => {
                                 <h4>
                                     See More Products
                         </h4>
-                                <a className="fa fa-fw fa-facebook"></a>
-                                <a className="fa fa-fw fa-twitter"></a>
-                                <a className="fa fa-fw fa-linkedin"></a>
-                                <a className="fa fa-fw fa-google-plus"></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-facebook" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-twitter" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-linkedin" href='#'></a>
+                                {/* eslint-disable-next-line */}
+                                <a className="fa fa-fw fa-google-plus" href='#'></a>
                             </div>
                         </article>
                     </div>
