@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link, Outlet, useParams } from 'react-router-dom';
 import CitiesSlider from './components/MainSlider/MainSlider';
+import Trending from './components/Trending/Trending';
 
 export default function App() {
   return (
@@ -35,6 +36,13 @@ function Home() {
       </nav>
 
       <CitiesSlider slides={slides} />
+      <div className='bg-white'>
+        <br />
+        <br />
+        <br />
+        <br />
+        <Trending />
+      </div>
     </div>
   );
 }
