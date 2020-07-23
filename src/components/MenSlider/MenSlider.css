@@ -12,3 +12,7 @@ hr {
     text-align:center;
     margin-left:25%;
 }
+
+.container {
+    height: 100px;
+}

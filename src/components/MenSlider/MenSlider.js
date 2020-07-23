@@ -78,31 +78,31 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { Typography } from '@material-ui/core';
- 
+
 class MenSlider extends Component {
     render() {
         return (
-            <div>
-            <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
-            <Typography variant='h4' className='treanding-heading'>Mens Collection</Typography>
+            <div className='container'>
+                <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css" />
+                <Typography variant='h4' className='treanding-heading'>FlyEase Collection</Typography>
                 <b><hr /></b>
                 <br />
                 <br />
                 <br />
-            <Carousel infiniteLoop={true}>
-                <div>
-                    <img src="https://static.nike.com/a/images/f_auto/q_auto:eco/t_PDP_864_v1/i1-e2d8c203-2369-452d-873e-e016853ee7aa/sportswear-swoosh-pullover-hoodie-MsX3P4.jpg" alt="" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src="https://static.nike.com/a/images/f_auto/q_auto:eco/t_PDP_864_v1/1e590fbc-1dc4-4034-a953-7b132bd386a5/sportswear-swoosh-french-terry-shorts-8p6l9p.jpg" alt="" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src="https://static.nike.com/a/images/f_auto/q_auto:eco/t_PDP_864_v1/cc798a7c-65cd-4ad3-9e5b-98036798c499/sportswear-french-terry-pullover-hoodie-tpRTZM.jpg" alt="" />
-                    <p className="legend">Legend 3</p>
-                </div>
-            </Carousel>
+                <Carousel>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="" />
+                        <p className="legend">Lifestyle</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" />
+                        <p className="legend">Running</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1512327536842-5aa37d1ba3e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" />
+                        <p className="legend">Football</p>
+                    </div>
+                </Carousel>
             </div>
         );
     }
