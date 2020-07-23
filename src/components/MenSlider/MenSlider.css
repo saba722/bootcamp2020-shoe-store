@@ -1,0 +1,14 @@
+.treanding-heading {
+    color: rgb(48, 45, 45);
+    font-family: 'Grenze Gotisch', cursive !important;
+    font-family: 'Lexend Zetta', sans-serif !important;
+    font-size: 45px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(82, 78, 78);
+    width:50%;
+    text-align:center;
+    margin-left:25%;
+}

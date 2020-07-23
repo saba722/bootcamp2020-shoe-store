@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link, Outlet, useParams } from 'react-router-dom';
 import CitiesSlider from './components/MainSlider/MainSlider';
 import Trending from './components/Trending/Trending';
+import MenSlider from './components/MenSlider/MenSlider';
 
 export default function App() {
   return (
@@ -42,6 +43,11 @@ function Home() {
         <br />
         <br />
         <Trending />
+        <br />
+        <br />
+        <br />
+        <br />
+        <MenSlider />
       </div>
     </div>
   );

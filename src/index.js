@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/owl.carousel/dist/assets/owl.carousel.css';
+import '../node_modules/owl.carousel/dist/assets/owl.theme.default.css';
+import '../node_modules/owl.carousel/dist/owl.carousel.js';
+import '../node_modules/owl.carousel/dist/owl.carousel.min.js';
 
 ReactDOM.render(
   <React.StrictMode>

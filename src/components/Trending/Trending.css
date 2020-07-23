@@ -445,12 +445,10 @@ h3 {
 }
 
 hr {
-    border: 3px solid rgb(48, 45, 45);
+    border: 1px solid rgb(82, 78, 78);
     width:50%;
     text-align:center;
     margin-left:25%;
-    color: rgb(48, 45, 45);
-    font-weight: 5px;
 }
 
 .img-responsive{
