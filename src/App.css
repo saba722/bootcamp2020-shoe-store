@@ -87,3 +87,11 @@
 .bg-white {
   background-color: white;
 }
+
+.main-div {
+  margin-bottom: -8px;
+}
+
+.footer {
+  margin-bottom: -1%;
+}

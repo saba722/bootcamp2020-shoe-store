@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link, Outlet, useParams } from 
 import CitiesSlider from './components/MainSlider/MainSlider';
 import Trending from './components/Trending/Trending';
 import MenSlider from './components/MenSlider/MenSlider';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -22,7 +23,7 @@ export default function App() {
 
 function Home() {
   return (
-    <div>
+    <div className='main-div'>
       <nav className='top-menu'>
         <div className='logo-div'>
           <img src='https://www.creativehire.com.au/wp-content/uploads/2016/08/nike-logo-gray-1-1024x640.png' alt='logo' className='logo'/>
@@ -48,7 +49,12 @@ function Home() {
         <br />
         <br />
         <MenSlider />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
+      <Footer className='footer'/>
     </div>
   );
 }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;500&family=Lexend+Zetta&display=swap');
+
+
+.footer-container {
+    background-color: #7C1E1B;
+    color: white;
+    margin-bottom: -8px;
+}
+
+.top-menu {
+  margin-bottom: -8px;
+}
+
+.footer-link{
+    color: white;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 12px;
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-family: 'Grenze Gotisch', cursive !important;
+    font-family: 'Lexend Zetta', sans-serif !important;
+}
+
+.footer-link:hover {
+    color: #AAAAAA;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 12px;
+    text-decoration: none !important;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Lexend Zetta', sans-serif;
+  }
+
+  .top-menu {
+    color: white;
+    align-items: center;
+    align-content: center;
+    margin-left: 60%;
+    padding: 20px 0;
+  }
